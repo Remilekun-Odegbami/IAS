@@ -8,7 +8,7 @@ VERSION:	Versoin Number
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 /*  typography */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&family=Ubuntu:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @font-face {
   font-family: 'futura-bold';
   src: url("../fonts/Futura-Bold.woff") format("woff");
@@ -20,14 +20,14 @@ body {
   line-height: 1.2;
   font-family: Helvetica sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 20px;
   color: #5c5c77;
 }
 
 p, .paragraph {
   font-weight: 400;
   color: #5c5c77;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.9;
   font-family: Helvetica sans-serif;
 }
@@ -256,7 +256,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FFDC11;
+  background-color: #fb973b;
   z-index: 999999;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -726,6 +726,10 @@ link:focus,
 .navbar .dropdown-item:hover {
   color: #fa7d09;
   background: transparent;
+}
+
+.search {
+  padding: 10px 5px;
 }
 
 .hero-section {

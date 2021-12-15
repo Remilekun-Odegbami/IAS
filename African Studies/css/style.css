@@ -27,7 +27,7 @@ body {
 p, .paragraph {
   font-weight: 400;
   color: #5c5c77;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.9;
   font-family: "Poppins", sans-serif;
 }
@@ -253,7 +253,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FFDC11;
+  background-color: #fb973b;
   z-index: 999999;
   display: flex;
   align-items: center;
@@ -708,6 +708,22 @@ link:focus,
   color: #fa7d09;
   background: transparent;
 }
+
+.search {
+  padding: 10px 5px;
+  outline: none;
+  border: 2px solid #1e1e4b;
+}
+
+@media (max-width: 360px) {
+  .search{
+   margin: 0 auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border: 1px solid #fa7d09;
+  }
+}
+
 
 .hero-section {
   padding: 250px 0 290px;
