@@ -576,12 +576,12 @@ textarea.form-control {
 .nav-item .nav-link {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 @media (max-width: 991px) {
   .nav-item .nav-link {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 }
 
@@ -742,9 +742,9 @@ link:focus,
 }
 
 .search {
-  font-size: 3em;
+  font-size: 2em;
   color:#2585d9;
-  margin-right: 150px;
+  margin-right: 18%;
 }
 
 @media (max-width: 991px) {
@@ -1060,11 +1060,6 @@ link:focus,
 .filter-controls li:hover {
   color: #fa7d09;
 }
-
-/* .main {
-  background-color: aliceblue;
-  color: #000;
-} */
 
 .main-header{
   color: rgb(29, 27, 27);
