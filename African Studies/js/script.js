@@ -23,7 +23,9 @@
 	// Background-images
 	$('[data-background]').each(function () {
 		$(this).css({
-			'background-image': 'url(' + $(this).data('background') + ')'
+			'background-image': 'url(' + $(this).data('background') + ')',
+			'background-size' : 'cover',
+			'background-repeat' : 'no-repeat'
 		});
 	});
 

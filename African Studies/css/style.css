@@ -20,38 +20,40 @@ body {
   line-height: 1.2;
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
-  color: #5c5c77;
-  text-align: justify;
+  font-size: inherit;
+  color: inherit;
+  background-color: #fff;
+  overflow-x: hidden;
 }
 
 p, .paragraph {
   font-weight: 400;
-  color: #5c5c77;
+  color: #000;
   font-size: 20px;
   line-height: 1.9;
   font-family: "Poppins", sans-serif;
+  text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #1e1e4b;
+  color: rgb(68, 64, 64);
   font-family: "futura-bold";
   font-weight: 700;
   line-height: 1.2;
 }
 
 h1, .h1 {
-  font-size: 60px;
+  font-size: 40px;
 }
 
 @media (max-width: 575px) {
   h1, .h1 {
-    font-size: 45px;
+    font-size: 36px;
   }
 }
 
 h2, .h2 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 @media (max-width: 575px) {
@@ -102,7 +104,7 @@ h6, .h6 {
 
 /* Button style */
 .btn {
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
   padding: 15px 40px;
@@ -232,11 +234,6 @@ h6, .h6 {
   color: #fff;
 }
 
-body {
-  background-color: #fff;
-  overflow-x: hidden;
-}
-
 ::-moz-selection {
   background: #101e9b;
   color: #fff;
@@ -351,7 +348,7 @@ a h4:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: #101e9b;
+  background: rgb(194, 187, 187);
   opacity: .8;
 }
 
@@ -368,7 +365,7 @@ a h4:hover {
 }
 
 .bg-secondary {
-  background: #101e9b !important;
+  background: #2585d9 !important;
 }
 
 .bg-gray {
@@ -376,27 +373,27 @@ a h4:hover {
 }
 
 .text-primary {
-  color: #fa7d09 !important;
+  color: rgb(68, 67, 68) !important;
 }
 
 .text-color {
-  color: #5c5c77;
+  color: #000;
 }
 
 .text-light {
-  color: #8585a4 !important;
+  color: #000 !important;
 }
 
 .text-lighten {
-  color: #d6d6e0 !important;
+  color: #000 !important;
 }
 
 .text-muted {
-  color: #b5b5b7 !important;
+  color: #000 !important;
 }
 
 .text-dark {
-  color: #1e1e4b !important;
+  color: #000 !important;
 }
 
 .font-secondary {
@@ -542,13 +539,13 @@ textarea.form-control {
 
 @media (max-width: 991px) {
   .navigation {
-    background: #101e9b;
+    background: #2585d9 ;
   }
 }
 
 @media (max-width: 991px) {
   .navbar-collapse {
-    background: #101e9b;
+    background: #2585d9 ;
   }
 }
 
@@ -559,12 +556,12 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navbar-nav {
     padding-left: 0;
-    background: #101e9b;
+    background: #2585d9 ;
   }
 }
 
 .nav-bg {
-  background-color: #101e9b;
+  background-color: #2585d9 ;
 }
 
 .nav-item {
@@ -575,7 +572,7 @@ textarea.form-control {
 .nav-item .nav-link {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 @media (max-width: 991px) {
@@ -609,19 +606,19 @@ textarea.form-control {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: rgb(36, 34, 34);
 }
 
 link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #fff;
+  color: #000;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: #fff;
+  color: rgb(19, 18, 18);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -742,7 +739,7 @@ link:focus,
 
 .search {
   font-size: 3em;
-  color:white;
+  color:#2585d9;
   margin-right: 150px;
 }
 
@@ -765,7 +762,7 @@ link:focus,
   bottom: -123px;
   z-index: 9;
   padding: 15px;
-  color: rgba(255, 255, 255, 0.5);
+  color: #2585d9;
   border: 0;
   font-size: 30px;
   transition: all linear .2s;
@@ -812,7 +809,7 @@ link:focus,
   overflow: hidden;
   height: 10px;
   width: 10px;
-  background: rgba(255, 255, 255, 0.5);
+  background: #2585d9;
   border: 0;
   outline: 0;
 }
@@ -1031,7 +1028,7 @@ link:focus,
 }
 
 .bg-footer {
-  background-color: #182b45;
+  background-color:  aliceblue;
 }
 
 .logo-footer {
@@ -1039,10 +1036,6 @@ link:focus,
   display: inline-block;
 }
 
-.footer {
-  border-color: #494a43 !important;
-  /* padding-top: 275px; */
-}
 
 /* /footer */
 .filter-controls li {
@@ -1059,22 +1052,24 @@ link:focus,
   color: #fa7d09;
 }
 
-.main {
-  background-color: #101e9b;
-}
+/* .main {
+  background-color: aliceblue;
+  color: #000;
+} */
 
 .main-header{
-  color: white;
+  color: rgb(29, 27, 27);
 }
 
 .back-to-home{
   font-size: 2em;
-  color: white;
+  color: #2585d9 ;
   text-decoration: underline;
   text-transform: capitalize;
 }
 
-
-
+.footer{
+  font-size: 1.2em;
+}
 
 /*# sourceMappingURL=maps/style.css.map */
