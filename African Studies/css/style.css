@@ -576,7 +576,7 @@ textarea.form-control {
 .nav-item .nav-link {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 @media (max-width: 991px) {
