@@ -102,6 +102,10 @@ h6, .h6 {
   }
 }
 
+img {
+  border-radius: 10px;
+}
+
 /* Button style */
 .btn {
   font-size: 20px;
@@ -179,7 +183,7 @@ h6, .h6 {
 }
 
 .btn-primary:hover {
-  background: #101e9b;
+  background:#2585d9 ;
   color: #fa7d09;
 }
 
@@ -187,8 +191,8 @@ h6, .h6 {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #101e9b;
-  border-color: #101e9b;
+  background-color:#2585d9 ;
+  border-color:#2585d9 ;
 }
 
 .btn-secondary {
@@ -224,7 +228,7 @@ h6, .h6 {
 }
 
 .btn-primary-outline:hover {
-  background: #101e9b;
+  background:#2585d9 ;
   color: #fa7d09;
   border: none;
 }
@@ -235,12 +239,12 @@ h6, .h6 {
 }
 
 ::-moz-selection {
-  background: #101e9b;
+  background:#2585d9 ;
   color: #fff;
 }
 
 ::selection {
-  background: #101e9b;
+  background:#2585d9 ;
   color: #fff;
 }
 
@@ -1072,4 +1076,15 @@ link:focus,
   font-size: 1.2em;
 }
 
+.teacher-list img{
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.past-directors img {
+  width: 700px;
+  height: 700px;
+  object-fit: contain;
+}
 /*# sourceMappingURL=maps/style.css.map */
