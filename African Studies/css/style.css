@@ -581,7 +581,7 @@ textarea.form-control {
 
 @media (max-width: 991px) {
   .nav-item .nav-link {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 }
 
