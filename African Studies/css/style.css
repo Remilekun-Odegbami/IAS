@@ -255,7 +255,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fb973b;
+  background-color: #db904a;
   z-index: 999999;
   display: flex;
   align-items: center;
@@ -592,7 +592,7 @@ textarea.form-control {
   height: 6px;
   width: 100%;
   content: "";
-  background: #fff;
+  background: rgb(58, 55, 55);
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
   -webkit-transform-origin: top;
