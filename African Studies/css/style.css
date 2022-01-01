@@ -1065,13 +1065,6 @@ link:focus,
   color: rgb(29, 27, 27);
 }
 
-.back-to-home{
-  font-size: 2em;
-  color: #2585d9 ;
-  text-decoration: underline;
-  text-transform: capitalize;
-}
-
 .footer{
   font-size: 1.2em;
 }
