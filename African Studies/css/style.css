@@ -565,7 +565,7 @@ textarea.form-control {
 }
 
 .nav-bg {
-  background-color: #2585d9 ;
+  background-color: #fa7d09;
 }
 
 .nav-item {
@@ -1088,3 +1088,39 @@ link:focus,
   object-fit: contain;
 }
 /*# sourceMappingURL=maps/style.css.map */
+
+
+/* Sidebar */
+
+.sidebar {
+  position: relative;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 770px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sidebar h2{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.sidebar li a {
+  font-size: 1.2em;
+  border-bottom: 1px solid rgb(122, 114, 114);
+  color: rgb(36, 34, 34);
+  margin-bottom: 10px;
+}
+
+.sidebar .dropdown .dropdown-item:last-child{
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.sidebar li a:hover {
+  color: #2585d9;
+}
