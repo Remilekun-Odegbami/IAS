@@ -29,7 +29,7 @@ body {
 p, .paragraph {
   font-weight: 400;
   color: #000;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.9;
   font-family: "Poppins", sans-serif;
   text-align: justify;
@@ -183,7 +183,7 @@ img {
 }
 
 .btn-primary:hover {
-  background:#2585d9 ;
+  background:#3E307D ;
   color: #fa7d09;
 }
 
@@ -191,8 +191,8 @@ img {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color:#2585d9 ;
-  border-color:#2585d9 ;
+  background-color:#3E307D ;
+  border-color:#3E307D ;
 }
 
 .btn-secondary {
@@ -228,7 +228,7 @@ img {
 }
 
 .btn-primary-outline:hover {
-  background:#2585d9 ;
+  background:#3E307D ;
   color: #fa7d09;
   border: none;
 }
@@ -239,12 +239,12 @@ img {
 }
 
 ::-moz-selection {
-  background:#2585d9 ;
+  background:#3E307D ;
   color: #fff;
 }
 
 ::selection {
-  background:#2585d9 ;
+  background:#3E307D ;
   color: #fff;
 }
 
@@ -369,7 +369,7 @@ a h4:hover {
 }
 
 .bg-secondary {
-  background: #2585d9 !important;
+  background: #3E307D !important;
 }
 
 .bg-gray {
@@ -538,29 +538,29 @@ textarea.form-control {
 .navigation {
   background: linear-gradient(to right, transparent 50%, #fa7d09 50%);
   transition: .2s ease;
-  white-space: nowrap;
 }
 
 @media (max-width: 991px) {
   .navigation {
-    background: #2585d9 ;
+    background: #3E307D;
   }
 }
 
 @media (max-width: 991px) {
   .navbar-collapse {
-    background: #2585d9 ;
+    background: #3E307D;
   }
 }
 
 .navbar-nav {
   padding-left: 50px;
+  background: #fa7d09;
 }
 
 @media (max-width: 991px) {
   .navbar-nav {
     padding-left: 0;
-    background: #2585d9 ;
+    background: #3E307D;
   }
 }
 
@@ -576,13 +576,6 @@ textarea.form-control {
 .nav-item .nav-link {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1em;
-}
-
-@media (max-width: 991px) {
-  .nav-item .nav-link {
-    font-size: 0.9em;
-  }
 }
 
 .nav-item::before {
@@ -592,7 +585,7 @@ textarea.form-control {
   height: 6px;
   width: 100%;
   content: "";
-  background: rgb(58, 55, 55);
+  background: #fff;
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
   -webkit-transform-origin: top;
@@ -604,25 +597,25 @@ textarea.form-control {
 
 .nav-item:hover::before, .nav-item.active::before {
   -webkit-transform: scaleY(1);
-  transform: scaleY(1);
+          transform: scaleY(1);
   -webkit-transform-origin: bottom;
-  transform-origin: bottom;
+          transform-origin: bottom;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgb(36, 34, 34);
+  color: #fff;
 }
 
 link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #000;
+  color: #fff;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: rgb(19, 18, 18);
+  color: #fff;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -643,35 +636,6 @@ link:focus,
   background: #fff;
   box-shadow: 0 2px 5px #0000000d;
 }
-
-#logo{
-  min-width: 100px;
-  min-width: 100px;
-  max-height: 100px;
-  min-height: 100px;
-}
-
-@media (max-width: 991px) {
-  #logo {
-    margin-right: 250px;
-  }
-}
-@media (max-width: 720px) {
-  #logo {
-    margin-right: 150px;
-  }
-}
-@media (max-width: 500px) {
-  #logo {
-    margin-right: 70px;
-  }
-}
-@media (max-width: 360px) {
-  #logo {
-    margin-right: 40px;
-  }
-}
-
 
 .navbar .dropdown:hover .dropdown-menu {
   visibility: visible;
@@ -743,8 +707,9 @@ link:focus,
 
 .search {
   font-size: 2em;
-  color:#2585d9;
-  margin-right: 8%;
+  color:#3E307D;
+  margin-left: 10%;
+  margin-top: -1%;
 }
 
 @media (max-width: 991px) {
@@ -755,6 +720,33 @@ link:focus,
   }
 }
 
+#logo{
+  min-width: 100px;
+  min-width: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+@media (max-width: 991px) {
+  #logo {
+    margin-right: 250px;
+  }
+}
+@media (max-width: 720px) {
+  #logo {
+    margin-right: 150px;
+  }
+}
+@media (max-width: 500px) {
+  #logo {
+    margin-right: 70px;
+  }
+}
+@media (max-width: 360px) {
+  #logo {
+    margin-right: 40px;
+  }
+}
 
 .hero-section {
   padding: 250px 0 290px;
@@ -766,7 +758,7 @@ link:focus,
   bottom: -123px;
   z-index: 9;
   padding: 15px;
-  color: #2585d9;
+  color: #332d4d;
   border: 0;
   font-size: 30px;
   transition: all linear .2s;
@@ -818,7 +810,7 @@ link:focus,
   overflow: hidden;
   height: 10px;
   width: 10px;
-  background: #2585d9;
+  background: #3E307D;
   border: 0;
   outline: 0;
 }
@@ -1115,5 +1107,7 @@ link:focus,
 }
 
 .sidebar li a:hover {
-  color: #2585d9;
+  color: #3E307D;
 }
+
+/* #2585d9 */
