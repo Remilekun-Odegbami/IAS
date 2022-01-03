@@ -27,9 +27,9 @@ body {
 }
 
 p, .paragraph {
-  font-weight: 400;
+  font-weight: 300;
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.9;
   font-family: "Poppins", sans-serif;
   /* text-align: justify; */
@@ -755,7 +755,7 @@ link:focus,
 .hero-slider .prevArrow,
 .hero-slider .nextArrow {
   position: absolute;
-  bottom: -123px;
+  bottom: -100px;
   z-index: 9;
   padding: 15px;
   color: #332d4d;
