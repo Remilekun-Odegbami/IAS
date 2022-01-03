@@ -106,6 +106,11 @@ img {
   border-radius: 10px;
 }
 
+.text-wrap{
+  float: left;
+  margin: 10px;
+}
+
 /* Button style */
 .btn {
   font-size: 20px;
