@@ -32,13 +32,13 @@ p, .paragraph {
   font-size: 18px;
   line-height: 1.9;
   font-family: "Poppins", sans-serif;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: rgb(68, 64, 64);
   font-family: "futura-bold";
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -1030,6 +1030,7 @@ link:focus,
 
 .bg-footer {
   background-color:  aliceblue;
+  
 }
 
 .logo-footer {
