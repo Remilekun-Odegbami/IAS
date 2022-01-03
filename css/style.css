@@ -372,6 +372,7 @@ a h4:hover {
 
 .text-color {
   color: #000;
+  font-weight: 300;
 }
 
 .text-light {
@@ -563,7 +564,7 @@ textarea.form-control {
 }
 
 .nav-item {
-  margin: 0 15px;
+  margin: 0 10px;
   position: relative;
 }
 
